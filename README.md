@@ -2,6 +2,11 @@
 ---
 A file size checker application made by [node-webkit](https://github.com/rogerwang/node-webkit), full support of Linux/Windows/Mac
 
+### Download links for different OS
+* [Linux]()
+* [Windows]()
+* [Mac](http://airbob.github.io/download/mac-sizeChecker.zip)
+
 ![screenshot](screenshot/main.gif)
 
 ### features
@@ -9,10 +14,6 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 * hover block to display detailed information (folder/file name, size)
 * export sizeChecker results to csv file (all files size info within selected directory)
 
-### Downloads for different OS
-* [Linux]()
-* [Windows]()
-* [Mac]()
 
 ### node modules used
 * [filewalker](https://www.npmjs.org/package/filewalker)
