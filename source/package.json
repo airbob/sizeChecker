@@ -1,0 +1,14 @@
+{
+    "name": "sizeChecker",
+    "main": "index.html",
+    "dependencies": {
+    "filewalker": "0.1.2",
+    "json2csv":"2.2.1"
+    },
+    "window": {
+    "toolbar": false,
+    "position": "center",
+    "width": 800,
+    "height": 600
+  }
+}
