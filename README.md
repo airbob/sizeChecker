@@ -11,7 +11,7 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 
 ### Downloads for different OS
 * [Linux]()
-* [Linux]()
+* [Windows]()
 * [Mac]()
 
 ### node modules used
