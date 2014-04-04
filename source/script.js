@@ -44,7 +44,7 @@ function exportReport(){
 }
 
 function projectPage() {
-   gui.Shell.openExternal("http://youtube.com")
+   gui.Shell.openExternal("https://github.com/airbob/sizeChecker")
 }
 menu2.items[0].click = reSelect;
 menu2.items[1].click = exportReport;
