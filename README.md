@@ -9,7 +9,7 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 
 ### How to run
 * Linux
-````
+````bash
 tar -zxvf sizeChecker-linux.tar.gz
 cd sizeChecker
 double click sizeChecker
