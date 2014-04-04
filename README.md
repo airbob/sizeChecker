@@ -7,6 +7,15 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 * [Windows](http://airbob.github.io/download/sizeChecker-win.zip)
 * [Mac](http://airbob.github.io/download/sizeChecker-mac.tar.gz)
 
+### How to run
+* Linux
+````
+tar -zxvf sizeChecker-linux.tar.gz
+cd sizeChecker
+double click sizeChecker
+````
+Please refer to this [instruction](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux) if encounter ```libudev.so.0 error```
+
 ### Brief walk through
 ##### step1: select folder to do the check
 ![screenshot](screenshot/step1.png)
