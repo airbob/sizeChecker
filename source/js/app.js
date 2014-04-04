@@ -40,7 +40,6 @@ filewalker(inputPath,options)
         }
     }
     else {
-//       if (p.indexOf('.') != 0 ) 
             result[p] = s.size
     }
   })
@@ -55,7 +54,6 @@ filewalker(inputPath,options)
     var index = 1;
     var preWidth = 100;
     var preHeight = 100;
-    //var flagIndex = Object.keys(result).length / 2 ;
     for (var x in result){
           var divPercent = result[x] / totalSize * 100 ;
           var divColor = (function(m,s,c){return (c ? arguments.callee(m,s,c-1) : '#') + s[m.floor(m.random() * s.length)]})(Math,'0123456789ABCDEF',5) ;
@@ -74,11 +72,12 @@ filewalker(inputPath,options)
           totalSize -= result[x];
     }
     
+    //done 
     $(".spinner").css("display", "none");
     $(".usagesection").css("display", "block");
-      $(".usageblock").hover(function(){
-         var rhtml = $(this).find("span").html();
-         $("#usageInfo").html(rhtml);
+    $(".usageblock").hover(function(){
+    var rhtml = $(this).find("span").html();
+    $("#usageInfo").html(rhtml);
       });
   })
 .walk();

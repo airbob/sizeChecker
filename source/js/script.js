@@ -9,7 +9,6 @@ var info_item = new gui.MenuItem({ label: 'Project Page' });
 menu2.append(info_item);
 var bodyElems = document . getElementsByTagName( "body" ) ; 
 var body = bodyElems[ 0 ] ;
-
 function reSelect() {
    $(".spinner").css("display", "none");
    $(".usagesection").css("display", "none");
@@ -22,14 +21,8 @@ function exportReport(){
   if(!details.length) { alert('result empty, please select a folder to do analysis first!');
   return;}
     LZADialog.saveFileAs({filename:'result.csv'}, function(file){
-      
-        
-            //alert(file.path);
             var fs = require('fs')
             var json2csv = require('json2csv');
-            //var alerts = [ ];
-            //alerts.push({"name":"software/test.txt","size":"1.5M"});
-
             json2csv({data: details, fields: ['name', 'size']}, function(err, csv) {
               if (err) console.log(err);
               fs.writeFile(file.path, csv, function(err) {
