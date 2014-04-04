@@ -12,9 +12,20 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 ````bash
 tar -zxvf sizeChecker-linux.tar.gz
 cd sizeChecker
-double click sizeChecker
+double click sizeChecker to run
 ````
 Please refer to this [instruction](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux) if encounter ```libudev.so.0 error```
+* windows
+````
+unzip sizeChecker-win.zip
+double click sizeChecker.exe to run
+````
+* mac
+````bash
+tar -zxvf sizeChecker-mac.tar.gz
+double click sizeChecker.app to run
+````
+Please right click sizeChecker.app and select open to run sizeChecker if you encounter 'an unidentified developer' problem
 
 ### Brief walk through
 ##### step1: select folder to do the check
