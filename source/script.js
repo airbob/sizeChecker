@@ -15,13 +15,8 @@ function reSelect() {
    $(".usagesection").css("display", "none");
    $("#1").html("");
    $(".selectFolder").css("display", "block");
+   document.title = 'size checker';
 }
-	/*
-   for (var x in details){
-          console.log(x+' --- ' + details[x]);
-    }
-    */
-
 
 function exportReport(){
   if(!details.length) { alert('result empty, please select a folder to do analysis first!');
