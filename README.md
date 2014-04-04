@@ -47,6 +47,9 @@ Please right click sizeChecker.app and select open to run sizeChecker if you enc
 * [filewalker](https://www.npmjs.org/package/filewalker)
 * [json2csv](https://www.npmjs.org/package/json2csv) 
 
+### change history
+[log.md](log.md)
+
 ### MIT license
 Copyright (c) 2014 air.chenboATgmail.com;
 
