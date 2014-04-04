@@ -1,13 +1,21 @@
 ## sizeChecker 
 ---
-A file size checker application made by [node-webkit](https://github.com/rogerwang/node-webkit), full support of Linux/Windows/Mac
+A file size checker application made by [node-webkit](https://github.com/rogerwang/node-webkit), fully support of Linux/Windows/Mac
 
 ### Download links for different OS
-* [Linux]()
-* [Windows]()
-* [Mac](http://airbob.github.io/download/mac-sizeChecker.zip)
+* [Linux](http://airbob.github.io/download/sizeChecker-linux.tar.gz)
+* [Windows](http://airbob.github.io/download/sizeChecker-win.zip)
+* [Mac](http://airbob.github.io/download/sizeChecker-mac.tar.gz)
 
-![screenshot](screenshot/main.gif)
+### Brief walk through
+##### step1: select folder to do the check
+![screenshot](screenshot/step1.png)
+##### step2: wait for processing if folder contains lots files 
+![screenshot](screenshot/step2.png)
+##### step3: hover on different color blocks to check detailed information  
+![screenshot](screenshot/step3.png)
+##### step4: right click to redo the selection or export the file size result as a .csv file 
+![screenshot](screenshot/step4.png)
 
 ### features
 * display foder/file sizes by different color blocks
