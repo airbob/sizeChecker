@@ -7,6 +7,26 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 * [Windows](http://airbob.github.io/download/sizeChecker-win.zip)
 * [Mac](http://airbob.github.io/download/sizeChecker-mac.tar.gz)
 
+### How to run
+* Linux
+````bash
+tar -zxvf sizeChecker-linux.tar.gz
+cd sizeChecker
+double click sizeChecker to run
+````
+Please refer to this [instruction](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux) if encounter ```libudev.so.0 error``` problem on ubuntu
+* windows
+````
+unzip sizeChecker-win.zip
+double click sizeChecker.exe to run
+````
+* mac
+````bash
+tar -zxvf sizeChecker-mac.tar.gz
+double click sizeChecker.app to run
+````
+Please right click sizeChecker.app and select open to run sizeChecker if you encounter 'an unidentified developer' problem
+
 ### Brief walk through
 ##### step1: select folder to do the check
 ![screenshot](screenshot/step1.png)
@@ -26,6 +46,9 @@ A file size checker application made by [node-webkit](https://github.com/rogerwa
 ### node modules used
 * [filewalker](https://www.npmjs.org/package/filewalker)
 * [json2csv](https://www.npmjs.org/package/json2csv) 
+
+### change history
+[log.md](log.md)
 
 ### MIT license
 Copyright (c) 2014 air.chenboATgmail.com;

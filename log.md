@@ -1,3 +1,4 @@
+* add linux and windows package
 * add app.icns as app icon [reference](http://applehelpwriter.com/tag/iconutil/)
 * try on ubuntu [reference](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux)
 * add right click to link to project page. [reference](http://stackoverflow.com/questions/19157659/how-to-open-a-browser-window-from-a-node-webkit-app)
