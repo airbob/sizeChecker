@@ -14,7 +14,7 @@ tar -zxvf sizeChecker-linux.tar.gz
 cd sizeChecker
 double click sizeChecker to run
 ````
-Please refer to this [instruction](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux) if encounter ```libudev.so.0 error```
+Please refer to this [instruction](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux) if encounter ```libudev.so.0 error``` problem on ubuntu
 * windows
 ````
 unzip sizeChecker-win.zip
