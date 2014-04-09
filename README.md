@@ -33,7 +33,7 @@ Please right click sizeChecker.app and select open to run sizeChecker if you enc
 ##### hover to check corresponding percentages 
 ![screenshot](screenshot/overall-hover.png)
 ##### click by Type to check the usage report by file types
-![screenshot](screenshot/bytype.png)
+![screenshot](screenshot/byType.png)
 ##### right click to export all file sizes report to a csv
 
 
