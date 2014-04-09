@@ -1,3 +1,4 @@
+* discard solution of v0 ![screenshots](v0-overall.png), implement it with new display of data (using d3.js)
 * add linux and windows package
 * add app.icns as app icon [reference](http://applehelpwriter.com/tag/iconutil/)
 * try on ubuntu [reference](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux)
