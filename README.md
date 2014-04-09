@@ -33,7 +33,7 @@ Please right click sizeChecker.app and select open to run sizeChecker if you enc
 ##### step2: wait for processing if folder contains lots files 
 ![screenshot](screenshot/step2.png)
 ##### step3: hover on different color blocks to check detailed information  
-![screenshot](screenshot/step3.png)
+![screenshot](screenshot/vstep3.png)
 ##### step4: right click to redo the selection or export the file size result as a .csv file 
 ![screenshot](screenshot/step4.png)
 

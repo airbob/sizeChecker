@@ -1,0 +1,6 @@
+.DS_Store
+.git*
+.travis.yml
+.watchlion.yaml
+coverage/
+distributes/python/

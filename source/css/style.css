@@ -1,18 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
-  height: 100%;
-  font-family: 'Exo 2',"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px;
-  color: white;
-  background-color: #34495e;
+    height: 100%;
+    font-family: 'Exo 2',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #bdc3c7;
 }
 
 .selectFolder {
-    
+
     width:100%;
     height:100%;
     position:absolute;
@@ -28,84 +28,207 @@ html, body {
     margin-bottom:0%;
 }
 
-.usagesection{
-  display: none;
-  width: 100%;
-  height: 100%;
-}
-
 .myButton {
-  -moz-box-shadow: 0px 10px 14px -7px #ffffff;
-  -webkit-box-shadow: 0px 10px 14px -7px #ffffff;
-  box-shadow: 0px 10px 14px -7px #ffffff;
-  background-color:transparent;
-  -moz-border-radius:4px;
-  -webkit-border-radius:4px;
-  border-radius:4px;
-  border:1px solid #ffffff;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-size:13px;
-  padding:6px 12px;
-  text-decoration:none;
+    background-color:#e4685d;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    border-radius:7px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:17px;
+    padding:16px 31px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ad23ad;
 }
 .myButton:hover {
-  background-color:transparent;
+    background-color:#eb675e;
 }
 .myButton:active {
-  position:relative;
-  top:1px;
+    position:relative;
+    top:1px;
 }
+
+
 .spinner {
-  display: none;
-  margin: 100px auto;
-  width: 50px;
-  height: 30px;
-  text-align: center;
-  font-size: 10px;
+    display: none;
+    margin: 100px auto;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
 }
 
 .spinner > div {
-  background-color: #333;
-  height: 100%;
-  width: 6px;
-  display: inline-block;
-  -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
-  animation: stretchdelay 1.2s infinite ease-in-out;
+    background-color: #e4685d;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
 }
 
 .spinner .rect2 {
-  -webkit-animation-delay: -1.1s;
-  animation-delay: -1.1s;
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
 }
 
 .spinner .rect3 {
-  -webkit-animation-delay: -1.0s;
-  animation-delay: -1.0s;
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
 }
 
 .spinner .rect4 {
-  -webkit-animation-delay: -0.9s;
-  animation-delay: -0.9s;
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
 }
 
 .spinner .rect5 {
-  -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+.tabs input[type=radio] {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.tabs {
+    float: none;
+    list-style: none;
+    position: relative;
+    padding: 0;
+    margin: 0px auto;
+}
+.tabs li{
+    float: right;
+}
+.tabs label {
+    display: block;
+    padding: 10px 20px;
+    border-radius: 2px 2px 0 0;
+    color: #e4685d;
+    font-size: 18px;
+    font-weight: normal;
+    background: rgba(255,255,255,0.2);
+    cursor: pointer;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.tabs label:hover {
+    background: rgba(255,255,255,0.5);
+    top: 0;
+}
+
+[id^=tab]:checked + label {
+    background: #e4685d;
+    color: white;
+    top: 0;
+}
+
+[id^=tab]:checked ~ [id^=tab-content] {
+    display: block;
+}
+.tab-content{
+    z-index: 2;
+    display: none;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    left: 0;
+    box-sizing: border-box;
+    -webkit-animation-duration: 0.5s;
+    -o-animation-duration: 0.5s;
+    -moz-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+}
+
+#tooltip {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    background-color: #e4685d;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+#tooltip.hidden {
+    display: none;
+}
+
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.axis text {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #95a5a6;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+rect {
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+
+#chart1 {
+  position: relative;
+}
+
+#chart1 path {
+  stroke: #fff;
+}
+
+#explanation {
+  position: absolute;
+  top: 260px;
+  left: 305px;
+  width: 180px;
+  text-align: center;
+  color: #666;
+  z-index: 1;
 }
 
 @-webkit-keyframes stretchdelay {
-  0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
-  20% { -webkit-transform: scaleY(1.0) }
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
 }
 
 @keyframes stretchdelay {
-  0%, 40%, 100% { 
-    transform: scaleY(0.4);
-    -webkit-transform: scaleY(0.4);
-  }  20% { 
-    transform: scaleY(1.0);
-    -webkit-transform: scaleY(1.0);
-  }
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
 }
