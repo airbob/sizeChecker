@@ -1,7 +1,7 @@
 * v0.9.0 release
 * 20140409 add by type view
 * 20140408 add overall view
-* discard solution of v0 ![](screenshots/v0-main.png), implement it with new display of data (using d3.js)
+* discard solution of v0 ![](screenshot/v0-main.png), implement it with new display of data (using d3.js)
 * add linux and windows package
 * add app.icns as app icon [reference](http://applehelpwriter.com/tag/iconutil/)
 * try on ubuntu [reference](http://www.exponential.io/blog/install-node-webkit-on-ubuntu-linux)
