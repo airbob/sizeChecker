@@ -40,7 +40,7 @@ Please right click sizeChecker.app and select open to run sizeChecker if you enc
 ### change history
 [log.md](log.md)
 
-### Thanks
+### Thanks to
 * [node-webkit](https://github.com/rogerwang/node-webkit)
 * [d3.js](http://d3js.org/)
 * [filewalker](https://www.npmjs.org/package/filewalker)
