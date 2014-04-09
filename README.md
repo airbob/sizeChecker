@@ -27,28 +27,27 @@ double click sizeChecker.app to run
 ````
 Please right click sizeChecker.app and select open to run sizeChecker if you encounter 'an unidentified developer' problem
 
-### Brief walk through
-##### step1: select folder to do the check
-![screenshot](screenshot/step1.png)
-##### step2: wait for processing if folder contains lots files 
-![screenshot](screenshot/step2.png)
-##### step3: hover on different color blocks to check detailed information  
-![screenshot](screenshot/vstep3.png)
-##### step4: right click to redo the selection or export the file size result as a .csv file 
-![screenshot](screenshot/step4.png)
+### Features
+##### overall: select folder to do the file size usage check
+![screenshot](screenshot/overall.png)
+##### hover to check corresponding percentages 
+![screenshot](screenshot/overall-hover.png)
+##### click by Type to check the usage report by file types
+![screenshot](screenshot/bytype.png)
+##### right click to export all file sizes report to a csv
 
-### features
-* display foder/file sizes by different color blocks
-* hover block to display detailed information (folder/file name, size)
-* export sizeChecker results to csv file (all files size info within selected directory)
-
-
-### node modules used
-* [filewalker](https://www.npmjs.org/package/filewalker)
-* [json2csv](https://www.npmjs.org/package/json2csv) 
 
 ### change history
 [log.md](log.md)
+
+### Thanks
+* [node-webkit](https://github.com/rogerwang/node-webkit)
+* [d3.js](http://d3js.org/)
+* [filewalker](https://www.npmjs.org/package/filewalker)
+* [json2csv](https://www.npmjs.org/package/json2csv) 
+* [kerryrodden's gist](https://gist.github.com/kerryrodden/7090426)
+* [G3n1k's blog](http://g3n1k.wordpress.com/2014/01/28/bar-chart-complete-code-d3-js/)
+* [disc inventory x](http://www.derlien.com/)
 
 ### MIT license
 Copyright (c) 2014 air.chenboATgmail.com;
