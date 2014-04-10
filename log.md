@@ -1,3 +1,4 @@
+* update linux/win/mac package download links
 * v0.9.0 release
 * 20140409 add by type view
 * 20140408 add overall view
